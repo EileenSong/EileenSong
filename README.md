@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @EileenSong
-- 👀 I’m interested in linguistics
+- 👋 Hi, I’m @Eileen_HJ_Song
+- 👀 I’m interested in linguistics, especially English
 - 🌱 I’m currently learning ML/DL
 - 📫 How to reach me Eileen.hj.s@gmail.com
 
