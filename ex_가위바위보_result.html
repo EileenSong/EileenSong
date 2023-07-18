@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<style>
+		
+	</style>
+<meta charset = "UTF-8">
+<title> 가위바위보 </title>
+<script>
+  
+	document.write("<h1>컴퓨터 가위, 바위, 보 맞추기</h1>");
+	let userChoice = prompt("가위, 바위, 보를 숫자로 선택해주세요. 가위:1, 바위:2, 보:3");
+
+	let comChoice = Math.ceil( Math.random() * 3 );
+	console.log(comChoice);
+	document.write("<img src='images/math_com_" + comChoice + ".jpg'>");
+
+	console.log(userChoice);
+	document.write("<img src='images/math_com_" + userChoice + ".jpg'>");
+
+	//랜덤함수를 활용하여 가위바위보 게임을 만들어보세요 ^^ 
+	
+
+	//사용자의 입력의 가위, 바위, 보를 1,2,3으로
+
+		switch(game) {
+			case 1:
+				document.write("<img src='images/math_com_" + userChoice + ".jpg'>");
+				break;
+			case 2:
+				document.write("<img src='images/math_com_" + userChoice + ".jpg'>");
+				break;		
+			case 3:
+				document.write("<img src='images/math_com_" + userChoice + ".jpg'>");
+				break;
+			default:
+				System.out.println("잘못 입력하였습니다");
+				break;
+		}
+
+		
+	// console.log 콘솔출력 system.out.print와 비슷한것임
+	/* console.log(document);
+	document.writeln( nm +"");
+	document.write("");
+	*/
+
+	// **조건식**
+    // 비겼을 때
+	if(comChoice == 1 && userChoice ==1){
+		document.write("<img src='images/game_3" + com + ".jpg'>");
+	}
+	    elseif(comChoice == userChoice)
+
+		comChoice == 2 && userChoice == 2
+		comChoice == 3 && userChoice == 3
+
+
+    // 이겼을 때 유저  &&
+	comChoice == 1 && userChoice == 2
+	comChoice == 2 && userChoice == 3
+	comChoice == 3 && userChoice == 1
+
+		document.write("<img src='images/game_1" + com + ".jpg'>");
+	
+	// 졌을 때
+	comChoice == 1 && userChoice == 3
+	comChoice == 2 && userChoice == 1
+	comChoice == 3 && userChoice == 2
+
+		document.write("<img src='images/game_2" + com + ".jpg'>");
+
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
