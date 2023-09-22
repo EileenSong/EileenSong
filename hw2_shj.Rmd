@@ -1,0 +1,93 @@
+---
+title: "hw2_shj"
+output: html_document
+date: "2023-09-22"
+---
+ 1. mpg는 R에 내장되어 있는 자료이다.
+1) mpg 자료중 범주형 변수는 어떤 것들이 있는가?
+
+```{r}
+library(ggplot2) 
+str(mpg)
+```
+-> 범주형 변수들과 정수형 변수들로 이루어져있다. 
+
+
+2) 1)에서 확인한 범주형 변수들 중 drv, class, fl을 수업시간에 배운 내용을 바탕으로 살펴보시오.
+```{r}
+
+ggplot(mpg, aes(x=drv)) +
+  geom_bar(aes(fill=drv))
+```
+
+```{r}
+ggplot(mpg, aes(x=class)) +
+  geom_bar(aes(fill=class))
+```
+
+```{r}
+ggplot(mpg, aes(x=fl)) +
+  geom_bar(aes(fill=fl))
+```
+
+3) class별 drv, fl 분포를 살펴보시오.
+
+```{r}
+ggplot(mpg, aes(x=class, fill=drv)) + geom_bar()
+```
+
+```{r}
+ggplot(mpg, aes(x=class, fill=fl)) +
+  geom_bar()
+```
+
+
+2. iris자료는 R에 내장되어 있는 자료이다.
+1) Sepal.Length, Sepal.Width, Petal.Length, Petal.Width의 분포가 Species 별로 어떻게 다른지 알아보려고 한다. 이에 알맞은 그림을 그리고 살펴보시오.
+
+```{r}
+# Sepal.Length 
+ggplot(iris, aes(x=Species, y=Sepal.Length, fill=Species)) +
+  geom_boxplot() 
+
+# Sepal.Width 
+ggplot(iris, aes(x=Species, y=Sepal.Width, fill=Species)) +
+  geom_boxplot() 
+
+# Petal.Length 
+ggplot(iris, aes(x=Species, y=Petal.Length, fill=Species)) +
+  geom_boxplot() 
+
+# Petal.Width 
+ggplot(iris, aes(x=Species, y=Petal.Width, fill=Species)) +
+  geom_boxplot() 
+```
+
+2) Sepal.Length와 나머지 3개의 연속변수들 (Sepal.Width,Petal.Length,Petal.Width)의 관계를 알아보려고 한다. 수업시간에 배운 내용을 바탕으로 살펴보시오.
+
+```{r}
+# Sepal.Length와 Sepal.Width의 관계
+ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
+  geom_point() 
+
+# Sepal.Length와 Petal.Length의 관계
+ggplot(iris, aes(x=Sepal.Length, y=Petal.Length, color=Species)) +
+  geom_point() 
+
+# Sepal.Length와 Petal.Width의 관계
+ggplot(iris, aes(x=Sepal.Length, y=Petal.Width, color=Species)) +
+  geom_point() 
+
+```
+
+
+
+3) 4개의 연속변수를 산점도 행렬을 이용하여 살펴보시오
+
+```{r}
+library(GGally)
+
+ggpairs(iris, columns=1:4, aes(color=Species))
+
+```
+
