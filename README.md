@@ -10,11 +10,13 @@
 
   
   <p align="center">
-    
+
+    <a>
     <a href="mailto:soyfeliz729@naver.com">
       <img src="https://img.shields.io/badge/E--Mail-03C75A?style=flat-square&logo=Naver&logoColor=white"/>
     </a>
-    
+
+    <a>
     <a href="https://harang-resume.notion.site/e745ead9704646ddad166eabf3c66d10">
       <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=#000000"/>
     </a>
