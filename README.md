@@ -3,7 +3,14 @@
 - 🌱 I’m currently learning ML/DL
 - 📫 How to contact me Eileen.hj.s@gmail.com
 
+
+🧰 Language and Tools
+
+<img src="http://img.shields.io/badge/JAVA-007369?style=flat&logo=Java&logoColor=white"/>
+
+
 <!---
 EileenSong/EileenSong is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
