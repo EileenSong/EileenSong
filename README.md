@@ -5,7 +5,6 @@
 
 
 
- ![header](https://capsule-render.vercel.app/api?type=Slice&color=38d9a9&height=180&section=header&text=seungmin%20Sa&fontSize=80&fontColor=343a40&animation=twinkling&rotate=-5)
 
 
 <h3 align="center"> Hi there 👋</h3>
@@ -14,16 +13,9 @@
 </br>
   <h3 align="center">It's Me! 🙋‍♂️</h3>
   <p align="center">
-    <a href="https://haranglog.tistory.com/">
-      <img src="https://img.shields.io/badge/Tech_Blog-f76707?style=flat-square&logo=Blogger&logoColor=white"/>
+ 
     </a>
-    <a href="https://velog.io/@saseungmin">
-      <img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/>
-    </a>
-    <a href="https://www.facebook.com/saseungmin95">
-      <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=Facebook&logoColor=white"/>
-    </a>
-    <a href="mailto:dbd02169@naver.com">
+    <a href="mailto:soyfeliz729@naver.com">
       <img src="https://img.shields.io/badge/E--Mail-03C75A?style=flat-square&logo=Naver&logoColor=white"/>
     </a>
     <a href="https://harang-resume.notion.site/e745ead9704646ddad166eabf3c66d10">
@@ -54,8 +46,6 @@
 
 
 
-![footer](https://capsule-render.vercel.app/api?type=Slice&color=38d9a9&height=120&section=footer)
-  
 
 </br>
 <!---
