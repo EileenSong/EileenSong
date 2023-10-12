@@ -42,7 +42,7 @@ git commit -m "msg"
 
 ```
 git push orgin [브랜치명]
-- 연결 ㅇ벗을 시: git remote add origin [url]
+- 연결 없없을 시: git remote add origin [url]
 ```
 
 7. **변경사항 가져오기**
